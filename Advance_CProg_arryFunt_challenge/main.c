@@ -23,6 +23,8 @@ int main()
 
 void arry_mod(char *in_arry){
     int x = 0;
+/*    int length;
+    length = strlen(in_arry);*/
     while(in_arry[x]){
         in_arry[x] = toupper(in_arry[x]);
         if(in_arry[x] == ' ')
@@ -30,5 +32,13 @@ void arry_mod(char *in_arry){
         x++;
 
     }
+
+/*    // Another method
+      for(x=0; x<length; x++){
+         in_arry[x] = toupper(in_arry[x]);
+          if(in_arry[x] == ' ')
+              in_arry[x] = '_';
+      }
+ */
 
 }
