@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688816713 source:c:\users\xps\onedrive\documents\my_lessons\linkedin_lesson\advancecprog\advance_cprog_cast_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

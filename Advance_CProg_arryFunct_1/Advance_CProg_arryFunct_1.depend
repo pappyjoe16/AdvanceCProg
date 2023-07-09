@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688862641 source:c:\users\xps\onedrive\documents\my_lessons\linkedin_lesson\advancecprog\advance_cprog_arryfunct_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
