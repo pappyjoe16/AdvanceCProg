@@ -2,27 +2,41 @@
 #include <stdlib.h>
 #include <string.h>
 
-struct person {
+// Define the struct
+struct staff {
     char name[32];
     int age;
     float iq;
 };
 
-void show_struct(struct person p);
+//Define your function
+void show_struct(struct staff p);
+struct staff fetchStruct(void);
 
 int main()
 {
-    struct person joseph;
-    strcpy(joseph.name, "Joseph Akinboyede");
-    joseph.age = 30;
-    joseph.iq = 300.56;
 
-    show_struct(joseph);
+/*  move this to a struct function
+    struct staff staff_1;
+    strcpy(staff_1.name, "Joseph Akinboyede");
+    staff_1.age = 30;
+    staff_1.iq = 300.56;*/
+
+    show_struct(fetchStruct());
 
     return 0;
 }
 
-void show_struct(struct person p){
+struct staff fetchStruct(void){
+    static struct staff staff_1;
+    strcpy(staff_1.name, "Joseph Akinboyede");
+    staff_1.age = 32;
+    staff_1.iq = 300.56;
+
+    return(staff_1);
+}
+
+void show_struct(struct staff p){
     printf("%s is %d old\n", p.name, p.age);
     printf("%s level of IQ is %.2f\n", p.name, p.iq);
 }
