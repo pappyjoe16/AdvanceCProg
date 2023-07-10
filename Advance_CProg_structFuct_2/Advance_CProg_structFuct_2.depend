@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688950320 source:c:\users\xps\onedrive\documents\my_lessons\linkedin_lesson\advancecprog\advance_cprog_structfuct_2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
