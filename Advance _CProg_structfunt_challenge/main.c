@@ -38,9 +38,8 @@ void fetchStruct(struct employee *p){
     printf("Enter the employee age: ");
     scanf("%d", &employee_A);
 
-
-    //strcpy(p->name, employee_N);
-   // p->age =  employee_A;
+    strcpy(p->name, employee_N);
+    p->age =  employee_A;
 
 
 }
