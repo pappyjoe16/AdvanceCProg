@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1688952010 source:c:\users\xps\onedrive\documents\my_lessons\linkedin_lesson\advancecprog\advance _cprog_structfunt_challenge\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
