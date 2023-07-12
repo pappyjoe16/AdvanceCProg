@@ -4,6 +4,7 @@
 
 #define SIZE 50
 void arry_mod(char *in_arry);
+
 int main()
 {
     char arry_in[SIZE];

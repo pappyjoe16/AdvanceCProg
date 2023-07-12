@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1689203693 source:c:\users\xps\onedrive\documents\my_lessons\linkedin_lesson\advancecprog\advance_cprog_arrypointer_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
